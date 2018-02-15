@@ -13,6 +13,8 @@ import org.cryptopia.api.domain.TradePair;
 import lombok.NonNull;
 
 public interface CryptopiaPublicAPI {
+    static final String REST_URI = "https://www.cryptopia.co.nz/api/";
+
     List<Currency> getCurrencies();
 
     List<TradePair> getTradePairs();

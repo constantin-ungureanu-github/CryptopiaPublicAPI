@@ -24,7 +24,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class CryptopiaPublicAPIImplementation implements CryptopiaPublicAPI {
-    private static final String REST_URI = "https://www.cryptopia.co.nz/api/";
     private final Client client = ClientBuilder.newClient();
     private final WebTarget target = client.target(REST_URI);
 

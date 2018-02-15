@@ -10,7 +10,6 @@ import lombok.ToString;
 @ToString
 @Getter
 public class TradePair {
-
     @JsonProperty("Id")
     private BigInteger id;
 

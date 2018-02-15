@@ -10,7 +10,6 @@ import lombok.ToString;
 @Getter
 @ToString
 public class MarketOrders {
-
     @JsonProperty("Buy")
     List<Order> buy;
 

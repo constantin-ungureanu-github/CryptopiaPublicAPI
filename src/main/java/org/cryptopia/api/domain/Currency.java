@@ -11,7 +11,6 @@ import lombok.ToString;
 @Getter
 @ToString
 public class Currency {
-
     @JsonProperty("Id")
     private BigInteger id;
 

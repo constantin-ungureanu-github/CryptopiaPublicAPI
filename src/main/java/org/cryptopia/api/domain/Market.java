@@ -11,7 +11,6 @@ import lombok.ToString;
 @Getter
 @ToString
 public class Market {
-
     @JsonProperty("TradePairId")
     private BigInteger tradePairId;
 

@@ -11,7 +11,6 @@ import lombok.ToString;
 @Getter
 @ToString
 public class Order {
-
     @JsonProperty("TradePairId")
     private BigInteger tradePairId;
 

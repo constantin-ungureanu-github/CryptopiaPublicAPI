@@ -8,7 +8,6 @@ import lombok.ToString;
 @Getter
 @ToString
 public class CryptopiaResponse<T> {
-
     @JsonProperty("Success")
     private String success;
 

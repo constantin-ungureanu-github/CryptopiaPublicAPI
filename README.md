@@ -12,6 +12,7 @@ Java client implementation for calling Cryptopia Public API.
 
 Version 1.0.0
 
-## Credits
+## Authors
 
-Developer - Constantin Ungureanu
+* **Robert Stevens** - *Initial work* - https://github.com/robert2411/cryptopia-api-client
+* **Constantin Ungureanu**
